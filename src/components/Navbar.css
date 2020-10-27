@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.navbar{
+  display: flex;
+  height: 8vh;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgba(109, 252, 252, 0.315);
+}
+
+.navbar-list{
+  display: flex;
+  list-style: none;
+}
+
+.navbar-item{
+  color: black;
+  padding: 0 20px;
+  opacity: 0.65;
+  transition: all 0.5s ease;
+  text-decoration: none;
+}
+
+.navbar-item:hover{
+  opacity: 1;
+  filter: brightness(0.5);
+  cursor: pointer
+}
+

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Raleway&display=swap');
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  height: 80vh;
+  padding: 0;
+}
+
+h1{
+  margin: 30px;
+}
+
+.note{
+  color: black;
+  font-size: 1.25rem;
+}
+
+.new-fridge{
+  width: 10.5rem;
+  height: 2.5rem;
+  border: none;
+  outline: none;
+  font-family: 'Raleway', sans-serif;
+  background-color: rgb(55, 245, 140);
+  opacity: 0.8;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:black;
+  text-decoration: none;
+}
+
+.new-fridge:hover {
+  opacity: 1;
+  cursor: pointer;
+  filter: brightness(0.95);
+}
+
+.new-fridge:active {
+  transform: scale(.98)
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  padding: 20px;
+}
+
+.field{
+  display: flex;
+  justify-content: space-between;
+}
+
+#form label {
+  margin: 10px;
+  text-align: left;
+}
+#form input {
+  width: 350px;
+  height: 25px;
+  border-radius: 10px;
+  border: 2px solid lightgray;
+  margin: 5px;
+  padding: 5px;
+  outline: none;
+}
+#form textarea{
+  width: 350px;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+  height: 100px;
+  outline: none;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+}
+
+input#button{
+  margin-top: 50px;
+  height: 35px;
+  font-family: 'Raleway', sans-serif;
+  background-color: rgb(55, 245, 140);
+  opacity: 0.8;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:black;
+  text-decoration: none;
+  border: none;
+}
+#button:hover {
+  opacity: 1;
+  cursor: pointer;
+  filter: brightness(0.95);
+}
+
+#button:active {
+  transform: scale(.98)
+}

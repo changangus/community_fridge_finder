@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Raleway&display=swap');
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  height: 80vh;
+  padding-top: 1rem;
+}
+
+h1{
+  margin: 30px;
+}
+
+.note{
+  color: rgb(124, 124, 124);
+  font-size: 1.5rem;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  padding: 20px;
+}
+
+.field{
+  display: flex;
+  justify-content: space-between;
+}
+
+#form label {
+  margin: 10px;
+  text-align: left;
+}
+#form input {
+  width: 350px;
+  height: 25px;
+  border-radius: 10px;
+  border: 2px solid lightgray;
+  margin: 5px;
+  padding: 5px;
+  outline: none;
+}
+#form textarea{
+  width: 350px;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+  height: 100px;
+  outline: none;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+}
+
+input#button{
+  margin-top: 50px;
+  height: 35px;
+  background-color: rgb(55, 245, 140);
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  border: none;
+  font-weight: bold;
+  font-size: 1.25rem;
+  opacity: 0.8;
+  transition: all 0.3s ease
+}
+#button:hover {
+  opacity: 1;
+  cursor: pointer;
+  filter: brightness(0.95);
+}
+
+#button:active {
+  transform: scale(.98)
+}
