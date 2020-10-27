@@ -12,7 +12,7 @@ import Contact from './components/Contact';
 function App() {
   return (
     <div className="App">
-      <HashRouter basename='/'>
+      <HashRouter basename='community_fridge_finder/'>
         <Navbar />
         <AnimatePresence exitBeforeEnter>
           <Switch>
