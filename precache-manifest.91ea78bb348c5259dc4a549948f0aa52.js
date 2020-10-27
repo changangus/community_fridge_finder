@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "01380e56d21bee4c7bf8ea4162e92f76",
+    "revision": "6c576233e158b6c5217a3a80a9bd3e95",
     "url": "/community_fridge_finder/index.html"
   },
   {
-    "revision": "8d5c31eef6ff97da6c0b",
+    "revision": "fc56c9176fe2023632ad",
     "url": "/community_fridge_finder/static/css/main.d24f2300.chunk.css"
   },
   {
-    "revision": "60cce6657c8dbda5474d",
-    "url": "/community_fridge_finder/static/js/2.e6d2f1fd.chunk.js"
+    "revision": "37a190f5d80f74d3a71c",
+    "url": "/community_fridge_finder/static/js/2.7c819bcd.chunk.js"
   },
   {
     "revision": "397893adeca610c9fda4fe97323ae340",
-    "url": "/community_fridge_finder/static/js/2.e6d2f1fd.chunk.js.LICENSE.txt"
+    "url": "/community_fridge_finder/static/js/2.7c819bcd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8d5c31eef6ff97da6c0b",
-    "url": "/community_fridge_finder/static/js/main.101d7ab6.chunk.js"
+    "revision": "fc56c9176fe2023632ad",
+    "url": "/community_fridge_finder/static/js/main.a0c05b14.chunk.js"
   },
   {
     "revision": "491abc3ceda7ceeb22d3",
