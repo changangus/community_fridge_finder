@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Switch, Route, HashRouter } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import Footer from './components/Footer';
 import FridgeForm from './components/FridgeForm';
@@ -12,7 +12,6 @@ import Contact from './components/Contact';
 function App() {
   return (
     <div className="App">
-      <HashRouter basename='community_fridge_finder/'>
         <Navbar />
         <AnimatePresence exitBeforeEnter>
           <Switch>
@@ -23,7 +22,6 @@ function App() {
           </Switch>
         </AnimatePresence>
         <Footer />
-      </HashRouter>
     </div>
   );
 }
