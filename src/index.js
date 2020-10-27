@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <BrowserRouter basename='http://changangus.github.io/community_fridge_finder'>
+  <BrowserRouter>
     <React.StrictMode>
       <App />
     </React.StrictMode>
