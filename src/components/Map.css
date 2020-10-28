@@ -12,3 +12,10 @@
   border: none;
   box-shadow: 3px 3px 15px 2px gray;
 }
+
+@media(max-width: 1200px){
+  .map{
+    width: 80%;
+    height: 90%
+  }
+}

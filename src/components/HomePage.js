@@ -22,13 +22,13 @@ export class HomePage extends Component {
           <Link to='/map' ><button className='hero-btn'>Find a Fridge!</button></Link>
           <Link to='/new_fridge' ><button className='hero-btn'>Submit a new Fridge!</button></Link>
           </div>
-          <div className='scroll-down'><a className='icon' href='#about'><i class="fas fa-arrow-circle-down"></i></a></div>
+          <div className='scroll-down'><span className='icon'><i className="fas fa-arrow-circle-down"></i></span></div>
 
         </section>
         <section className='about' id='about'>
           <div className='about-text'>
             <h2>About Community Fridges</h2>
-            <p>Community fridges is a free space for communities to donate and receive food. </p>
+            <p>The purpose of a Community Fridge is to help deal with food insecurity and to reduce the amount of food waste, while also bringing communities closer together. Public fridges are easy to use, many run 24/7 and are placed in public areas that are accessible to anyone.  </p>
           </div>
           <img className='about-image' src='https://images.unsplash.com/photo-1487770931682-b80013ed9cc9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60' alt='fridge'/>
         </section>
@@ -40,17 +40,17 @@ export class HomePage extends Component {
             <div className='help-item'>
               <img src={Food} className='help-image' alt='Fridge Donation'/>
               <h3>Donate</h3>
-              <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+              <p>One way is to help keep your community fridge stocked! Have excess produce? Bought way too much milk (make sure its not bad..)? D'you Collect all the bagels that are being thrown out at that bagel shop? Bring them to your community fridge!</p>
             </div>
             <div className='help-item'>
               <img src={Like} className='help-image' alt='Fridge Donation'/>
               <h3>Share</h3>
-              <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+              <p>Another is to share to others what community fridges are and how to find them. Whether you do so on social media or help guide someone in need to this site or others like it. Sometimes those who experience any kind of hardship are unaware of all the resources available to them.</p>
             </div>
             <div className='help-item'>
               <img src={Volunteer} className='help-image' alt='Fridge Donation'/>
               <h3>Volunteer</h3>
-              <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+              <p>Volunteer! Many community fridges offer volunteer opportunities to help maintain the facilities used. Maybe your community doesn't have a community fridge and you're wondering if you can start one. Well you can! Check out this group called Freedge, they have a ton of resources and even grants to help people like you get started.</p>
             </div>
           </div>
 

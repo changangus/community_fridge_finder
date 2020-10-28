@@ -115,3 +115,31 @@ input#button{
 #button:active {
   transform: scale(.98)
 }
+
+@media(max-width: 1200px){
+  .note {
+    max-width: 90vw;
+  }
+}
+
+@media(max-width:600px){
+  .form {
+    height: 1000%;
+  }
+  h1{
+    font-size: 1.5rem;
+  }
+  .note {
+    font-size: 1rem;
+  }
+  #form{
+    padding: 5px;
+    width: 90%;
+  }
+  #form input{
+    width: 100%;
+  }
+  #form textarea{
+    width: 100%;
+  }
+}

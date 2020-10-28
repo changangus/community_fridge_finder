@@ -33,7 +33,7 @@ export class FridgeForm extends Component {
             <input type="text" name="subject" id="subject"/>
           </div>
           <div className="field">
-            <label htmlFor="name">Your Name</label>
+            <label htmlFor="name">Name of Fridge</label>
             <input type="text" name="name" id="name"/>
           </div>
           <div className="field">

@@ -30,3 +30,17 @@
   cursor: pointer
 }
 
+@media(max-width: 600px){
+  .navbar {
+    flex-direction: column;
+    height: inherit;
+    padding-top: 10px;
+  }
+  .navbar-list {
+    flex-direction: column;
+    padding: 0;
+  }
+  li {
+    margin-top: 10px;
+  }
+}
