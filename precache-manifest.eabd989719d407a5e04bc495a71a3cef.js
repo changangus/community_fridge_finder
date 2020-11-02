@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6c576233e158b6c5217a3a80a9bd3e95",
+    "revision": "13300fe4291e8c5742de98451a01ec75",
     "url": "/community_fridge_finder/index.html"
   },
   {
-    "revision": "fc56c9176fe2023632ad",
-    "url": "/community_fridge_finder/static/css/main.d24f2300.chunk.css"
+    "revision": "154e9cd5eb564dc9f8c3",
+    "url": "/community_fridge_finder/static/css/main.83e72913.chunk.css"
   },
   {
     "revision": "37a190f5d80f74d3a71c",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/community_fridge_finder/static/js/2.7c819bcd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fc56c9176fe2023632ad",
-    "url": "/community_fridge_finder/static/js/main.a0c05b14.chunk.js"
+    "revision": "154e9cd5eb564dc9f8c3",
+    "url": "/community_fridge_finder/static/js/main.d955ebe0.chunk.js"
   },
   {
     "revision": "491abc3ceda7ceeb22d3",
