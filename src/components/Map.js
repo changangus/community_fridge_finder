@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { motion } from 'framer-motion';
+import { GoogleMap, LoadScript } from '@react-google-maps/api';
 
 import './Map.css';
 
