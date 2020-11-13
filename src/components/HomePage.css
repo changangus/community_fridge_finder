@@ -139,6 +139,7 @@ p {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .help-items {

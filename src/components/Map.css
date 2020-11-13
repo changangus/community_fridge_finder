@@ -1,9 +1,39 @@
 .map-container{
   width: 100%;
-  height: 80vh;
+  height: 82vh;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.searchbar-container{
+  padding-top: 2vh;
+  margin-right: 3rem;
+  width:25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+}
+
+label {
+  font-family: inherit;
+  padding: .25rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.searchbar {
+  margin-top: 1vh;
+  height: 3rem;
+  border: none;
+  background: rgb(233, 233, 233);
+  border-radius: 10px;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: .25rem;
 }
 
 .map{
