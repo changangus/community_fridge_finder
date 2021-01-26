@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "13300fe4291e8c5742de98451a01ec75",
+    "revision": "1961b64c38d5e13c0bf82e50455a2c03",
     "url": "/community_fridge_finder/index.html"
   },
   {
